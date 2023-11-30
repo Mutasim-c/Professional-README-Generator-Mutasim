@@ -65,9 +65,9 @@ ${data.contributing}
 ## Test
 ${data.tests}
 ## Questions
-https://github.com/${data.github}
+My github is https://github.com/${data.github}
 
-${data.email}
+Please get in touch through my email: ${data.email}
 ${renderLicenseSection(data.license)}`
 );
 }
