@@ -33,12 +33,17 @@ const questions = [
     type: 'input',
     name: 'tests',
     message: 'What are the test instruction?',
+    },
+    {
+    type: 'list',
+    message: 'What license do you want?',
+    name: 'license',
+    choices: ['GNU General Public License v3.0', 'MIT License', 'Apache License 2.0'],
     }
 ];
 // TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
-    const { title, description, installation, usage, contributing, tests } = data
     fs.writeFile(fileName, generateMarkdown(data), (err) =>
     err ? console.log(err) : console.log('Successfully created README')
   );
@@ -47,6 +52,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
+        console.log(answers)
         writeToFile("README.md", answers);
     })
 }
