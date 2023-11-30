@@ -1,17 +1,19 @@
-# h
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# a
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-h
+a
 ## Installation
-h
+a
 ## Usage
-h
+a
 ## Contributing
-h
+a
 ## Test
-h
+a
 ## Questions
+https://github.com/Mutasim-c
+mutasim.chaud@gmail.com
 ## License
-GNU General Public License v3.0
+MIT License
 
-https://choosealicense.com/licenses/gpl-3.0/
+https://choosealicense.com/licenses/mit/

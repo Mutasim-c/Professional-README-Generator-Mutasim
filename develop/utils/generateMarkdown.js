@@ -58,6 +58,8 @@ ${data.contributing}
 ## Test
 ${data.tests}
 ## Questions
+https://github.com/${data.github}
+${data.email}
 ${renderLicenseSection(data.license)}`
 );
 }
