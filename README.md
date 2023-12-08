@@ -11,3 +11,6 @@ Make your way to the directory where the index.js file is. Then run the command 
 ## Important
 Make sure you run the command 'npm i inquirer@8.2.4' before running node index.js otherwise it wont work.
 
+## Link
+example video.
+https://drive.google.com/file/d/1Rzkje-xwUi-Z6MsZIQomqkBgVU58378V/view
